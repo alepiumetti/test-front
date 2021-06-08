@@ -10,30 +10,43 @@ body {
 
 .circle {
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   transition: 1s;
   margin-right: -30px;
 }
 
 .circle:hover {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 .circle:hover .inside_circle {
   opacity: 100;
 }
 
+.container_imgs{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 70%;
+  top: 70%;
+
+}
+
 .inside_circle {
   position: relative;
 
-  left: 70%;
-  top: 70%;
-  height: 100px;
+  height: 70px;
   transition: 1s;
   opacity: 0;
 }
+.down{
+    position: relative;
+    top: 50%;
+    
+}
+
 
 .right {
   z-index: 1;

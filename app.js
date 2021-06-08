@@ -9,8 +9,8 @@ console.log(circle);
 
 button.addEventListener("mouseover", (event) => {
   for (let i = 0; i < circle.length; i++) {
-    circle[i].style.width = "250px";
-    circle[i].style.height = "250px";
+    circle[i].style.width = "130px";
+    circle[i].style.height = "130px";
     svg[i].style.opacity = "100";
   }
 });
@@ -25,8 +25,8 @@ button.addEventListener("mouseout", (event) => {
 
 button_dos.addEventListener("mouseover", (event) => {
   for (let i = 0; i < circle.length; i++) {
-    circle_dos[i].style.width = "250px";
-    circle_dos[i].style.height = "250px";
+    circle_dos[i].style.width = "130px";
+    circle_dos[i].style.height = "130px";
     svg_dos[i].style.opacity = "100";
   }
 });
