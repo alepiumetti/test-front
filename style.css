@@ -54,3 +54,13 @@ body {
 .button_test:hover {
   background-color: seagreen;
 }
+
+@media screen and (max-width: 600px) {
+  .wrapper_circle {
+    flex-direction: column;
+  }
+
+  .right {
+    margin-top: -30px;
+  }
+}
