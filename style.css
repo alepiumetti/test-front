@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+}
+
+.wrapper_circle {
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  transition: 1s;
+  margin-right: -30px;
+}
+
+.circle:hover {
+  width: 250px;
+  height: 250px;
+}
+
+.circle:hover .inside_circle {
+  opacity: 100;
+}
+
+.inside_circle {
+  position: relative;
+
+  left: 70%;
+  top: 70%;
+  height: 100px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.right {
+  z-index: 1;
+}
+
+.button_test {
+  width: 50px;
+  height: 35px;
+  margin: 10px;
+  border-style: none;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 5%;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.button_test:hover {
+  background-color: seagreen;
+}
